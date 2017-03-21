@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.AzureServiceBus.Queue", "Learning.AzureServiceBus.Queue\Learning.AzureServiceBus.Queue.csproj", "{D9EAD5AA-9488-40E9-9181-83A3D7DA652C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.AzureServiceBus.Queue.Receive", "Learning.AzureServiceBus.Queue.Receive\Learning.AzureServiceBus.Queue.Receive.csproj", "{D2667A2D-0CF3-48A2-856C-442EB3846BD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{533D7B8B-1A1C-435A-AB55-EB82B5A42FDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topics", "Topics", "{EF775D46-5BCD-4B7C-86ED-D18441B8A4D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{7E33E956-471A-4FEA-B527-DFA08B32CE12}"
+	ProjectSection(SolutionItems) = preProject
+		References.txt = References.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.AzureServiceBus.Topics", "Learning.AzureServiceBus.Topics\Learning.AzureServiceBus.Topics.csproj", "{54628E79-535E-444E-A56E-F9E3C6523737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.AzureServiceBus.Topics.Sender", "Learning.AzureServiceBus.Topics.Sender\Learning.AzureServiceBus.Topics.Sender.csproj", "{718D7D38-CC65-4196-8F2B-987D522F1BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.AzureServiceBus.Topics.Receiver", "Learning.AzureServiceBus.Topics.Receiver\Learning.AzureServiceBus.Topics.Receiver.csproj", "{02302F9E-B0AE-4DC5-998A-D60EC7BBE74C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9EAD5AA-9488-40E9-9181-83A3D7DA652C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EAD5AA-9488-40E9-9181-83A3D7DA652C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EAD5AA-9488-40E9-9181-83A3D7DA652C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EAD5AA-9488-40E9-9181-83A3D7DA652C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2667A2D-0CF3-48A2-856C-442EB3846BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2667A2D-0CF3-48A2-856C-442EB3846BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2667A2D-0CF3-48A2-856C-442EB3846BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2667A2D-0CF3-48A2-856C-442EB3846BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54628E79-535E-444E-A56E-F9E3C6523737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54628E79-535E-444E-A56E-F9E3C6523737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54628E79-535E-444E-A56E-F9E3C6523737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54628E79-535E-444E-A56E-F9E3C6523737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{718D7D38-CC65-4196-8F2B-987D522F1BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718D7D38-CC65-4196-8F2B-987D522F1BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718D7D38-CC65-4196-8F2B-987D522F1BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718D7D38-CC65-4196-8F2B-987D522F1BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02302F9E-B0AE-4DC5-998A-D60EC7BBE74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02302F9E-B0AE-4DC5-998A-D60EC7BBE74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02302F9E-B0AE-4DC5-998A-D60EC7BBE74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02302F9E-B0AE-4DC5-998A-D60EC7BBE74C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9EAD5AA-9488-40E9-9181-83A3D7DA652C} = {533D7B8B-1A1C-435A-AB55-EB82B5A42FDE}
+		{D2667A2D-0CF3-48A2-856C-442EB3846BD9} = {533D7B8B-1A1C-435A-AB55-EB82B5A42FDE}
+		{54628E79-535E-444E-A56E-F9E3C6523737} = {EF775D46-5BCD-4B7C-86ED-D18441B8A4D1}
+		{718D7D38-CC65-4196-8F2B-987D522F1BD2} = {EF775D46-5BCD-4B7C-86ED-D18441B8A4D1}
+		{02302F9E-B0AE-4DC5-998A-D60EC7BBE74C} = {EF775D46-5BCD-4B7C-86ED-D18441B8A4D1}
+	EndGlobalSection
+EndGlobal
